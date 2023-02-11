@@ -1,0 +1,38 @@
+@import url(https://fonts.bunny.net/css?family=inter:400,800);
+@import url(https://fonts.bunny.net/css?family=bad-script:400);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply text-gray-800;
+}
+
+.button {
+    @apply flex px-4 py-4 border border-gray-600 font-bold rounded-xl transition-all duration-300 hover:bg-gray-600 hover:text-white;
+}
+
+.button svg {
+    @apply mr-2;
+}
+
+.button-center {
+     @apply inline-block px-4 py-4 border border-gray-600 font-bold rounded-xl mx-auto mt-12 transition-all duration-300 hover:bg-gray-600 hover:text-white;
+ }
+
+.link-main-nav {
+    @apply px-4 py-2 bg-white rounded-xl transition-all duration-300 hover:bg-gray-200;
+}
+
+.link-footer {
+    @apply transition-all duration-300 hover:underline mb-4;
+}
+
+.link-generic {
+     @apply underline transition-all duration-300 hover:font-bold;
+ }
+
+.product-info > p {
+    @apply prose mb-8;
+}
