@@ -10,11 +10,11 @@
 				<h2 class="mb-8 text-4xl font-bold w-2/3">Help & support</h2>
 				<p>
 					<span class="font-bold mr-2">Email:</span>
-					<NuxtLink to="mailto:help@bantingmarket.com" class="link-generic">help@bantingmarket.com</NuxtLink>
+					<NuxtLink to="mailto:help@example.com" class="link-generic">help@example.com</NuxtLink>
 				</p>
 				<p class="my-4">
 					<span class="font-bold mr-2">Phone:</span>
-					<NuxtLink to="tel:help@bantingmarket.com" class="link-generic">0129982389</NuxtLink>
+					<NuxtLink to="tel:0123456789" class="link-generic">0123456789</NuxtLink>
 					<br>
 					<span class="italic">Our office hours are from Monday to Friday 08h00 to 17h00</span>
 				</p>
