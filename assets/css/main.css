@@ -33,6 +33,38 @@
      @apply underline transition-all duration-300 hover:font-bold;
  }
 
+.router-link-active {
+    @apply font-bold;
+}
+
+#dashNav .router-link-active, #storeNav .router-link-active {
+    @apply bg-gray-300;
+}
+
 .product-info > p {
     @apply prose mb-8;
+}
+
+.form .form-group {
+    @apply flex flex-col py-4;
+}
+
+.form label {
+    @apply text-sm font-bold mb-1 tracking-wide;
+}
+
+.form input[type="text"], .form input[type="password"], .form input[type="email"] {
+    @apply border border-gray-300 rounded-xl p-2 focus:outline-none focus:ring focus:ring-dark-green    ;
+}
+
+#orders-table th {
+    @apply font-bold text-white p-2 text-left;
+}
+
+#orders-table td {
+    @apply py-8 border-b-2;
+}
+
+#orders-table tbody > tr {
+    @apply hover:bg-amber-100 duration-200;
 }

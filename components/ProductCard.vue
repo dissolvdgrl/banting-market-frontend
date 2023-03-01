@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import CartImage from "~/components/CartImage.vue";
+import CartImage from "~/components/CartButton.vue";
 
 const props = defineProps(['title', 'shortDesc', 'productImage', 'url', 'price']);
 </script>

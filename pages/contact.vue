@@ -5,7 +5,7 @@
 			description="Need help? Let us know below"
 			heroProductImage="brooke-cagle-eL4xIEuHzzk-unsplash.jpg"
 		/>
-		<div class="container grid gap-16 grid-cols-1 lg:grid-cols-3">
+		<div class="container grid gap-16 grid-cols-1 lg:grid-ctextbook-chapteols-3">
 			<div>
 				<h2 class="mb-8 text-4xl font-bold w-2/3">Help & support</h2>
 				<p>

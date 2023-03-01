@@ -17,6 +17,9 @@ module.exports = {
       },
       colors: {
         'dark-green': '#7ba982'
+      },
+      gridTemplateColumns: {
+        '1-3': '1fr 3fr;'
       }
     },
   },

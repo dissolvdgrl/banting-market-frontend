@@ -1,5 +1,5 @@
 <template>
-	<nav class="border-b py-4 hidden md:block">
+	<nav class="border-b py-4 hidden md:block" id="storeNav">
 		<div class="container flex flex-col md:flex-row justify-between container mx-auto items-center gap-y-2 max-w-6xl">
 			<NuxtLink to="/products" class="link-main-nav">All products</NuxtLink>
 			<NuxtLink to="/brands" class="link-main-nav">Brands</NuxtLink>
