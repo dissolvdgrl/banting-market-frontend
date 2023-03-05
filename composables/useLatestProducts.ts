@@ -1,0 +1,1 @@
+export default async() => useFetchWithCache('/api/products/latest');

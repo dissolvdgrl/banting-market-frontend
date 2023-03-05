@@ -1,0 +1,1 @@
+export default async() => useFetchWithCache(`/api/brands/all`);

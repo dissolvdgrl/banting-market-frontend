@@ -12,6 +12,9 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+	runtimeConfig: {
+		wpGraphQlEndpoint: process.env.NUXT_WPGRAPHQL_ENDPOINT
+	},
 	css: ["~/assets/css/main.css"],
 	postcss: {
 		plugins: {

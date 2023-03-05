@@ -6,7 +6,7 @@
 			<NuxtLink :to="action" class="button" v-if="action">{{ callToAction }}</NuxtLink>
 		</div>
 		<div class="bg-white rounded-xl overflow-hidden border border-gray-300 hidden md:block shadow-xl" v-if="heroProductImage">
-			<img :src="`/images/${heroProductImage}`" alt="heroProductImage" class="mx-auto">
+			<img :src="`${heroProductImage}`" alt="heroProductImage" class="mx-auto">
 		</div>
 	</div>	
 </template>

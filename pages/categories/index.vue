@@ -9,11 +9,9 @@
 		/>
 		<div id="categories-listing" class="container grid grid-cols-1 md:grid-cols-3 gap-16">
 			<CategoryCard
-				v-for="category in categories"
-				:title="category.title"
-				:shortDesc="category.shortDesc"
-				:brandLogo="category.brandLogo"
-				:url="category.slug"
+				v-for="category in allCategories"
+				:title="category.node.name"
+				:url="category.node.slug"
 			/>
 		</div>
 		<Pagination :pagination-item="categories"/>
@@ -21,6 +19,7 @@
 </template>
 
 <script setup>
+const allCategories = await useCategories();
 const categories = [
 	{
 		id: 1,

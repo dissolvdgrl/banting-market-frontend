@@ -89,7 +89,8 @@
 </template>
 
 <script setup>
-
+const route = useRoute();
+const product = useProduct(route.params.productSlug);
 const products = [
 	{
 		id: 1,

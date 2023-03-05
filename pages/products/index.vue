@@ -2,7 +2,7 @@
 	<div class="container">
 		<Hero
 			pageTitle="Products"
-			description="Buy this awesome stuff"
+			description="Get selected Banting Market products online"
 			heroProductImage="sauce-mayo.png"
 			action="#product-listing"
 			callToAction="Start shopping"

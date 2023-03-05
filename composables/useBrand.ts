@@ -1,0 +1,1 @@
+export default async(slug: string) => useFetchWithCache(`/api/brands/${slug}`);
